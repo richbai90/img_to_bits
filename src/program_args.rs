@@ -13,6 +13,6 @@ pub struct ProgramArgs {
     pub output: String,
 
     /// Bit depth to use for the conversion
-    #[arg(short, long, default_value_t = 24)]
+    #[arg(short, long, default_value_t = 8)]
     pub depth: u8,
 }
